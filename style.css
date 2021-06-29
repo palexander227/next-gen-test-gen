@@ -33,21 +33,21 @@ h2 {
 
 }
 
-.flex-column {
+.col-flx {
     display: flex;
     flex-direction: column;  
 }
 
-.flex-center {
+.ctr-flx {
    justify-content: center;
    align-items: center; 
 }
 
-.justify-center {
+.ctr-jst {
     justify-content: center;
 }
 
-.text-center {
+.ctr-txt {
     text-align: center;
 }
 

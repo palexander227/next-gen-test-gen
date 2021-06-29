@@ -1,0 +1,77 @@
+body{
+    color: blue;
+}
+
+.ans-choices{
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: blue;
+    font-size: 3rem;
+    min-width: 80rem;
+    color: wheat;
+}
+
+.ans-choices:hover{
+    cursor: pointer;
+    box-shadow: 0.0, 0.4rem, 1.4rem greenyellow;
+    transform: scale(1.02);
+    transform: transform 100ma;
+}
+
+.ans-label {
+    padding: 2rem 2.5rem;
+    color: white;
+}
+
+.ans-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+.right {
+    background-color: green;
+}
+
+.wrong {
+    background-color: red;
+}
+
+#choiceUi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.initUi {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.choiceUiText{
+    text-align: center;
+}
+
+#trackBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid black;
+    margin-top: 2rem;
+    border-radius: 30px; 
+    overflow: hidden;
+    justify-items: left;
+}
+
+#fullTrackBar {
+    height: 100%;
+    background-color: rgb(22, 22, 20);
+    width: 0%;
+}
+
+
+
+@media screen and (max-width: 750px){
+    .ans-choices {
+        min-width: 38rem;
+    }
+}
