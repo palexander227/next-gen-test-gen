@@ -4,41 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Sequence: Coding Quiz</title>
+    <title>Scores: Coding Quiz</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="take-quiz.css">
 </head>
 <body>
     <div class="container">
-        <div id="take-quiz" class="ctr-jst col-flx">
+        <div id="highscores" class="ctr-jst col-flx">
             <div id="choiceUi">
                 <div class="choiceUiElm">
-                    <p class="initUi" id="trackingText">
-                        Question
-                    </p>
-                    <div id="trackBar">
-                        <div id="fullTrackBar"></div>
-                    </div>
+                    <h1 class="choiceUiText" >
+                        All Done!
+                    </h1>                   
                 </div>
-                <div class="choiceUiElm">
-                    <p class="initUi">
-                        Timer
-                    </p>
-                    <h1 class="choiceUiText" id="timer">
-                        75
-                    </h1>
-                </div> 
-                <div class="choiceUiElm">
-                    <p class="initUi">
-                        Score
-                    </p>
-                    <h1 class="choiceUiText" id="score">
-                        0
-                    </h1>
-                </div>            
-            </div>
-            <div id="quiz-questions">
                 
+                            
+            </div>
+            <div>
+                <div>Your final score is <span id="score"></span></div>
+                <div>Enter your initials <input id="initials-input"><button type="button">Submit</button></div>
             </div>
             <!-- <h2 id="question">What is the answer?</h2>
             <div class="ans-choices">
