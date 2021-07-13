@@ -5,44 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scores: Coding Quiz</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="take-quiz.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="highscores.css">
 </head>
 <body>
     <div class="container">
-        <div id="highscores" class="ctr-jst col-flx">
-            <div id="choiceUi">
-                <div class="choiceUiElm">
-                    <h1 class="choiceUiText" >
-                        All Done!
-                    </h1>                   
-                </div>
-                
-                            
+        <div class="container">
+
+            <div id="results" class="results">
+            <h1>
+              All Done!
+              </h1>
+              <div>
+              Your final score is: <span id="current-score"></span>
+              </div>
+              <div>
+              Enter your intials: <input type="type" id="score-entry"> <button type="button" class="btn" onclick="submitHighScore()">Submit</button>
+              </div>
             </div>
-            <div>
-                <div>Your final score is <span id="score"></span></div>
-                <div>Enter your initials <input id="initials-input"><button type="button">Submit</button></div>
-            </div>
-            <!-- <h2 id="question">What is the answer?</h2>
-            <div class="ans-choices">
-                <p class="ans-label">A</p>
-                <p class="ans-text" data-item="1">A choice of answer</p>
-            </div>
-            <div class="ans-choices">
-                <p class="ans-label">B</p>
-                <p class="ans-text" data-item="2">A choice of answer</p>
-            </div>
-            <div class="ans-choices">
-                <p class="ans-label">C</p>
-                <p class="ans-text" data-item="3">A choice of answer</p>
-            </div>
-            <div class="ans-choices">
-                <p class="ans-label">D</p>
-                <p class="ans-text" data-item="4">A choice of answer</p>
-            </div> -->
-        </div>
-    </div>
-    <script src="take-quiz.js"></script>   
+          
+          </div>
+    <script src="high-scores.js"></script>   
 </body>
 </html>
