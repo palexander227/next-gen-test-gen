@@ -85,6 +85,9 @@ function submitAnswer(k){
         document.getElementById(`answer-${k}`).classList.add("wrong");
     }
     curQuestIdx++;
+    var trackBarWidth = (curQuestIdx/quizItems.length)*20;
+    var widthStyle = 'width: ' + trackBarWidth + 'rem';
+    document.getElementById('fullTrackBar').setAttribute("style", widthStyle);
     if(curQuestIdx < quizItems.length){
         setTimeout(function(){
             loadQuizQuestions(curQuestIdx);
